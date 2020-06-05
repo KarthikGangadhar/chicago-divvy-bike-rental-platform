@@ -1,0 +1,19 @@
+{
+  "name": "chicago-divvy-bike-rental-platform",
+  "version": "1.0.0",
+  "description": "This is REST API for the Chicago Divvy Bike Rental platform using the Divvy API and the provided trip data.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform.git"
+  },
+  "author": "kgangadhar <karthikg1643@gmail.com> (https://github.com/karthikgangadhar)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform/issues"
+  },
+  "homepage": "https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform#readme"
+}
