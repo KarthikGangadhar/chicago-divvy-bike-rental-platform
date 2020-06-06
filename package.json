@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform/issues"
   },
-  "homepage": "https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform#readme"
+  "homepage": "https://github.com/KarthikGangadhar/chicago-divvy-bike-rental-platform#readme",
+  "dependencies": {
+    "fast-csv": "^4.3.0"
+  }
 }
