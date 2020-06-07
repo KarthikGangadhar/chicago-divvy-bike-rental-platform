@@ -28,7 +28,7 @@ app.init = function () {
 
   } else {
 
-  // Start the server
+    // Start the server
     server.init();
     let message = `worker ${process.pid}...`;
     console.log(message);
@@ -37,8 +37,12 @@ app.init = function () {
 
 };
 
-// Self executing
-app.init();
+if (typeof (process.env.NODE_ENV) == 'string' && process.env.NODE_ENV.toLowerCase() == 'testing') {
+  server.init();
+} else {
+  // Self executing
+  app.init();
+}
 
 // Export the app
 module.exports = app;
