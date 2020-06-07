@@ -5,6 +5,7 @@ This is REST API for the Chicago Divvy Bike Rental platform using the Divvy API 
 ```shell
 npm install --save
 ```
+
 ## Security Tokens
 The Authorization for APIs is provided using 20 character token based mechanism. The following security tokens should be used when calling APIs
 
@@ -32,6 +33,32 @@ The Authorization for APIs is provided using 20 character token based mechanism.
     * Verify
         * Open CLI
         * Run `npm start`
+
+## Commands
+
+The unit test cases are written using the build-in node modules, To Run the test cases use the following command
+
+```shell
+
+npm test
+
+OR 
+
+node .\test\index.js 
+
+```
+
+To run the server navigate into the directory and use,
+
+```shell
+
+node main.js
+
+OR
+
+npm start
+
+```
 
 ## Usage
 
@@ -201,27 +228,6 @@ In the above curl call the query string contains station_ids provided comma sepa
 
 ```
 
-
-## Commands
-
-The unit test cases are written using the build-in node modules, To Run the test cases use the 
-
-```shell
-
-npm test
-
-```
-
-To run the server navigate into the directory and use,
-
-```shell
-
-node main.js
-
-OR
-
-npm start
-
-```
+## Docker Image File
 
 The server docker Image is exported and provided at the following link: [Docker-Image-File](https://drive.google.com/file/d/16PNyBzIT7eiootc81O1zz1jyp6U8lZXg/view?usp=sharing)
