@@ -204,4 +204,24 @@ In the above curl call the query string contains station_ids provided comma sepa
 
 ## Commands
 
-[Docker-Image-File](https://drive.google.com/file/d/16PNyBzIT7eiootc81O1zz1jyp6U8lZXg/view?usp=sharing)
+The unit test cases are written using the build-in node modules, To Run the test cases use the 
+
+```shell
+
+npm test
+
+```
+
+To run the server navigate into the directory and use,
+
+```shell
+
+node main.js
+
+OR
+
+npm start
+
+```
+
+The server docker Image is exported and provided at the following link: [Docker-Image-File](https://drive.google.com/file/d/16PNyBzIT7eiootc81O1zz1jyp6U8lZXg/view?usp=sharing)
