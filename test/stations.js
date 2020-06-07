@@ -4,19 +4,19 @@
  */
 
 // Dependencies
-var app = require('./../main');
-var assert = require('assert');
-var http = require('http');
-var config = require('./../lib/config');
+const app = require('./../main');
+const assert = require('assert');
+const http = require('http');
+const config = require('./../lib/config');
 
 // Holder for Tests
-var api = {};
+const api = {};
 
 // Helpers
-var helpers = {};
+const helpers = {};
 helpers.makeGetRequest = function(path,callback){
   // Configure the request details
-  var requestDetails = {
+  let requestDetails = {
     'protocol' : 'http:',
     'hostname' : 'localhost',
     'port' : config.httpPort,
@@ -29,7 +29,7 @@ helpers.makeGetRequest = function(path,callback){
   };
 
   // Send the request
-  var req = http.request(requestDetails,function(res){
+  let req = http.request(requestDetails,function(res){
       callback(res);
   });
   req.end();
@@ -37,7 +37,7 @@ helpers.makeGetRequest = function(path,callback){
 
 helpers.makeGetRequestWithoutAPIKey = function(path,callback){
     // Configure the request details
-    var requestDetails = {
+    let requestDetails = {
       'protocol' : 'http:',
       'hostname' : 'localhost',
       'port' : config.httpPort,
@@ -49,7 +49,7 @@ helpers.makeGetRequestWithoutAPIKey = function(path,callback){
     };
   
     // Send the request
-    var req = http.request(requestDetails,function(res){
+    let req = http.request(requestDetails,function(res){
         callback(res);
     });
     req.end();
