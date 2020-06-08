@@ -230,4 +230,4 @@ In the above curl call the query string contains station_ids provided comma sepa
 
 ## Docker Image File
 
-The server docker Image is exported and provided at the following link: [Docker-Image-File](https://drive.google.com/file/d/16PNyBzIT7eiootc81O1zz1jyp6U8lZXg/view?usp=sharing)
+The server docker Image is exported and provided at the following link: [Docker-Image-File](https://drive.google.com/file/d/1BgTwQdqehcQC26Bb8gMmM7AmHg1nzbHP/view?usp=sharing)
